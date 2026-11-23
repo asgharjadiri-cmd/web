@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="وب‌سایت آموزشی مهارت‌های زندگی؛ مهارت نه گفتن، تاب‌آوری، کنترل خشم و پیشگیری از اعتیاد">
+<title>مهارت‌های زندگی | راهی برای ساختن آینده‌ای بهتر</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
+:root{--ink:#201b43;--muted:#66627d;--purple:#5540b8;--purple2:#7864dc;--paper:#fbfaff;--line:#e9e4fb;--shadow:0 12px 35px #30216d12}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.9}a{color:inherit;text-decoration:none}.wrap{width:min(1140px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:#ffffffeb;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:1.2rem}.brand-mark{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,#7562dc,#39278d);color:white;display:grid;place-items:center;font-size:1.35rem}.links{display:flex;gap:24px;color:#514c70;font-weight:600}.links a:hover{color:var(--purple)}.menu{display:none;border:0;background:#f0edff;border-radius:12px;padding:8px 12px;font:inherit;color:var(--purple)}
+.hero{padding:65px 0 54px;background:radial-gradient(circle at 10% 20%,#e7e1ff 0,transparent 32%),radial-gradient(circle at 90% 80%,#eee9ff 0,transparent 34%),linear-gradient(135deg,#fff,#f7f4ff)}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center}.eyebrow{display:inline-block;background:#eeeaff;color:var(--purple);padding:5px 14px;border-radius:99px;font-weight:700;font-size:.9rem}.hero h1{font-size:clamp(2.2rem,5vw,4rem);line-height:1.35;margin:16px 0 10px;font-weight:900}.hero h1 span{color:var(--purple)}.hero p{color:var(--muted);font-size:1.08rem;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 22px;border-radius:14px;background:var(--purple);color:white;font-weight:700;box-shadow:0 7px 18px #5540b833}.btn.alt{background:white;color:var(--purple);border:1px solid #dcd4ff;box-shadow:none}.hero-art{min-height:300px;border-radius:32px;background:linear-gradient(145deg,#3c2b91,#7765d7);color:white;display:grid;place-items:center;position:relative;overflow:hidden;box-shadow:0 22px 50px #39278d30}.hero-art:before,.hero-art:after{content:"";position:absolute;border:1px solid #ffffff38;border-radius:50%;width:260px;height:260px}.hero-art:after{width:360px;height:360px}.hero-symbol{font-size:7rem;z-index:1}.hero-caption{position:absolute;bottom:24px;z-index:1;font-weight:800;font-size:1.15rem}
+.section{padding:64px 0}.section-head{text-align:center;margin-bottom:30px}.section-head small{color:var(--purple);font-weight:800}.section-head h2{font-size:2rem;margin:4px 0}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.topic{padding:23px;border:1px solid var(--line);border-radius:22px;background:white;box-shadow:var(--shadow);transition:.2s}.topic:hover{transform:translateY(-5px)}.topic .ico{width:58px;height:58px;border-radius:18px;display:grid;place-items:center;font-size:1.8rem;margin-bottom:12px}.topic h3{margin:0 0 6px;font-size:1.18rem}.topic p{color:var(--muted);font-size:.94rem;margin:0 0 15px}.more{color:var(--purple);font-weight:800;font-size:.92rem}.rose .ico{background:#fff0f1}.blue .ico{background:#eaf3ff}.green .ico{background:#eaf8ef}.violet .ico{background:#f0edff}
+.about{background:#f2efff}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.about-box{background:white;border:1px solid var(--line);padding:28px;border-radius:24px;box-shadow:var(--shadow)}.about-box h2{margin-top:0}.checks{padding:0;list-style:none}.checks li{margin:10px 0}.checks li:before{content:'✓';display:inline-grid;place-items:center;background:#e9e4ff;color:var(--purple);font-weight:900;border-radius:50%;width:24px;height:24px;margin-left:9px}.quote{border-right:4px solid var(--purple);padding:12px 18px;background:#faf9ff;border-radius:12px;color:#51477e;font-weight:700;margin-top:18px}.tips{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.tip{background:white;border:1px solid var(--line);border-radius:18px;padding:20px}.tip b{display:block;margin-bottom:5px}.tip p{margin:0;color:var(--muted);font-size:.94rem}
+.contact{background:linear-gradient(135deg,#30236f,#5945bb);color:white;padding:52px 0}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.contact p{color:#e6e1ff}.form{background:white;color:var(--ink);padding:24px;border-radius:22px}.form label{display:block;font-weight:700;margin:9px 0 4px}.form input,.form textarea{width:100%;border:1px solid #e2def2;border-radius:11px;padding:11px;font:inherit;background:#fdfcff}.form textarea{min-height:90px;resize:vertical}.form button{margin-top:12px;border:0;cursor:pointer;font:inherit;width:100%}#status{color:#287747;font-weight:700;margin:8px 0 0;min-height:1.5em}
+footer{background:#211a49;color:#eae6ff;padding:22px 0}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;font-size:.92rem}.muted{color:#c9c2ee}
+@media(max-width:850px){.cards{grid-template-columns:repeat(2,1fr)}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero-art{min-height:230px}.links{gap:12px;font-size:.9rem}}
+@media(max-width:580px){.nav{height:66px}.menu{display:block}.links{display:none;position:absolute;top:66px;right:4%;left:4%;background:white;padding:15px;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);flex-direction:column}.links.open{display:flex}.cards,.tips{grid-template-columns:1fr}.hero{padding:42px 0}.hero h1{font-size:2.25rem}.section{padding:46px 0}.section-head h2{font-size:1.65rem}}
+
+/* تم تک‌رنگ و قابل تغییر */
+:root{color-scheme:light;--ink:#171717;--muted:#5f5f5f;--purple:#242424;--purple2:#555;--paper:#fff;--line:#dedede;--shadow:0 12px 35px #00000010;--surface:#fff;--surface-soft:#f4f4f4;--header:#fffffff0;--hero-bg:linear-gradient(135deg,#fff,#f1f1f1);--about-bg:#f1f1f1}
+body{background:var(--paper);color:var(--ink);transition:background .25s,color .25s}
+header{background:var(--header);border-color:var(--line)}
+.brand-mark,.btn,.contact{background:#222;color:#fff}
+.hero{background:radial-gradient(circle at 10% 20%,#e8e8e8 0,transparent 32%),radial-gradient(circle at 90% 80%,#f0f0f0 0,transparent 34%),var(--hero-bg)}
+.eyebrow{background:#ededed;color:#222}.hero h1 span,.section-head small,.more{color:#222}
+.btn.alt{background:var(--surface);color:var(--ink);border-color:var(--line)}
+.hero-art{background:linear-gradient(145deg,#171717,#555);color:#fff;box-shadow:0 22px 50px #00000020}
+.topic,.about-box,.tip{background:var(--surface);border-color:var(--line);box-shadow:var(--shadow)}
+.about{background:var(--about-bg)}
+.rose .ico,.blue .ico,.green .ico,.violet .ico{background:#ededed;color:#222}
+.checks li:before{background:#e5e5e5;color:#111}.quote{border-color:#222;background:var(--surface-soft);color:var(--ink)}
+.contact{background:linear-gradient(135deg,#171717,#444)}.contact p{color:#e5e5e5}
+.form{background:var(--surface);color:var(--ink)}.form input,.form textarea{background:var(--surface-soft);color:var(--ink);border-color:var(--line)}
+footer{background:#171717;color:#f4f4f4}.muted{color:#d0d0d0}
+.nav-tools{display:flex;align-items:center;gap:9px}.theme-toggle{width:42px;height:42px;border:1px solid var(--line);border-radius:13px;background:var(--surface);color:var(--ink);font-size:1.35rem;cursor:pointer;display:grid;place-items:center;transition:.2s}.theme-toggle:hover{transform:translateY(-2px);background:var(--surface-soft)}
+.menu{background:#ededed;color:#222}
+html[data-theme="dark"]{color-scheme:dark;--ink:#f3f3f3;--muted:#bdbdbd;--purple:#f0f0f0;--purple2:#ccc;--paper:#111;--line:#383838;--shadow:0 12px 35px #0008;--surface:#1b1b1b;--surface-soft:#252525;--header:#151515ed;--hero-bg:linear-gradient(135deg,#151515,#202020);--about-bg:#191919}
+html[data-theme="dark"] .hero{background:radial-gradient(circle at 10% 20%,#303030 0,transparent 32%),radial-gradient(circle at 90% 80%,#292929 0,transparent 34%),var(--hero-bg)}
+html[data-theme="dark"] .brand-mark,html[data-theme="dark"] .btn,html[data-theme="dark"] .contact{background:#f0f0f0;color:#111}
+html[data-theme="dark"] .eyebrow,html[data-theme="dark"] .menu{background:#303030;color:#f4f4f4}
+html[data-theme="dark"] .hero h1 span,html[data-theme="dark"] .section-head small,html[data-theme="dark"] .more{color:#f2f2f2}
+html[data-theme="dark"] .btn.alt{background:#202020;color:#f5f5f5;border-color:#555}
+html[data-theme="dark"] .hero-art{background:linear-gradient(145deg,#050505,#383838)}
+html[data-theme="dark"] .rose .ico,html[data-theme="dark"] .blue .ico,html[data-theme="dark"] .green .ico,html[data-theme="dark"] .violet .ico{background:#303030;color:#fff}
+html[data-theme="dark"] .checks li:before{background:#3a3a3a;color:#fff}
+html[data-theme="dark"] .quote{background:#252525;color:#eee}
+html[data-theme="dark"] .contact{background:linear-gradient(135deg,#eee,#cfcfcf);color:#111}
+html[data-theme="dark"] .contact p{color:#333}
+html[data-theme="dark"] .form input,html[data-theme="dark"] .form textarea{background:#252525;color:#f5f5f5;border-color:#444}
+html[data-theme="dark"] footer{background:#050505}
+html[data-theme="dark"] .theme-toggle{background:#242424;color:#fff;border-color:#555}
+@media(max-width:580px){.nav-tools{margin-right:auto}.links{background:var(--surface);color:var(--ink)}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="#home"><span class="brand-mark">✦</span><span>مهارت‌های زندگی</span></a><div class="nav-tools"><button class="theme-toggle" id="themeToggle" type="button" aria-label="فعال‌سازی حالت شب" title="تغییر حالت شب و روز"><span id="themeIcon" aria-hidden="true">☾</span></button><button class="menu" id="menuBtn" aria-label="باز کردن منو">☰</button></div><nav class="links" id="navLinks"><a href="#home">صفحه اصلی</a><a href="#topics">موضوعات</a><a href="#about">درباره مهارت‌ها</a><a href="#tips">نکته‌های کاربردی</a><a href="#contact">ارتباط با ما</a></nav></div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid"><div><span class="eyebrow">راهنمای ساده برای زندگی بهتر</span><h1>مهارت‌های زندگی؛<br><span>راهی برای ساختن آینده‌ای بهتر</span></h1><p>با یادگیری مهارت‌های درست، می‌توانیم انتخاب‌های آگاهانه‌تری داشته باشیم، با دشواری‌ها روبه‌رو شویم و از سلامت و آرامش خود محافظت کنیم.</p><div class="actions"><a class="btn" href="#topics">آشنایی با مهارت‌ها ←</a><a class="btn alt" href="#about">چرا مهم‌اند؟</a></div></div><div class="hero-art"><div class="hero-symbol">🌱</div><div class="hero-caption">هر روز، یک انتخاب بهتر</div></div></div></section>
+<section class="section" id="topics"><div class="wrap"><div class="section-head"><small>چهار مهارت مهم</small><h2>از خودت مراقبت کن؛ آینده‌ات را بساز</h2><p>برای آشنایی با هر موضوع، کارت موردنظر را انتخاب کن.</p></div><div class="cards">
+<article class="topic violet"><div class="ico">✋</div><h3>مهارت نه گفتن</h3><p>با احترام و اعتمادبه‌نفس به خواسته‌های نادرست پاسخ منفی بدهیم و از ارزش‌های خود محافظت کنیم.</p><a class="more" href="#no">مطالعه بیشتر ←</a></article>
+<article class="topic blue"><div class="ico">⛰️</div><h3>تاب‌آوری</h3><p>در برابر سختی‌ها امیدمان را حفظ کنیم، از شکست‌ها درس بگیریم و دوباره تلاش کنیم.</p><a class="more" href="#resilience">مطالعه بیشتر ←</a></article>
+<article class="topic green"><div class="ico">🧘</div><h3>کنترل خشم</h3><p>احساس خشم را بشناسیم، پیش از واکنش مکث کنیم و با آرامش و فکر درست رفتار کنیم.</p><a class="more" href="#anger">مطالعه بیشتر ←</a></article>
+<article class="topic rose"><div class="ico">🚫</div><h3>نه به اعتیاد</h3><p>با انتخاب‌های سالم، دوری از مواد مخدر و رفتارهای پرخطر، از سلامتی و آینده خود مراقبت کنیم.</p><a class="more" href="#addiction">مطالعه بیشتر ←</a></article>
+</div></div></section>
+<section class="section about" id="about"><div class="wrap about-grid"><div><div class="section-head" style="text-align:right;margin-bottom:12px"><small>چرا مهارت‌های زندگی مهم‌اند؟</small><h2>انتخاب‌های امروز، آینده ما را می‌سازند</h2></div><p>مهارت‌های زندگی به ما کمک می‌کنند خودمان و احساساتمان را بهتر بشناسیم، تصمیم‌های سنجیده بگیریم و ارتباط سالم‌تری با دیگران داشته باشیم.</p><ul class="checks"><li>افزایش اعتمادبه‌نفس و خودآگاهی</li><li>تصمیم‌گیری بهتر در موقعیت‌های دشوار</li><li>ارتباط محترمانه و سالم با دیگران</li><li>مراقبت از سلامت جسم و روان</li></ul></div><div class="about-box"><h2>یک یادآوری مهم</h2><p>قرار نیست همیشه همه‌چیز آسان باشد. مهم این است که راه‌های سالم روبه‌رو شدن با مشکلات را یاد بگیریم و در صورت نیاز از خانواده، معلم یا مشاور کمک بخواهیم.</p><div class="quote">«با انتخاب‌های درست، آینده‌ای بهتر می‌سازیم.»</div></div></div></section>
+<section class="section" id="details"><div class="wrap"><div class="section-head"><small>مروری کوتاه</small><h2>چهار مهارت، چهار قدم برای زندگی بهتر</h2></div><div class="tips">
+<div class="tip" id="no"><b>✋ مهارت نه گفتن</b><p>نه گفتن بی‌احترامی نیست. می‌توانیم آرام، روشن و قاطع مخالفت کنیم؛ به‌ویژه وقتی پیشنهادی با ارزش‌ها یا امنیت ما سازگار نیست.</p></div>
+<div class="tip" id="resilience"><b>⛰️ تاب‌آوری</b><p>تاب‌آوری یعنی توانایی برخاستن پس از دشواری‌ها و ادامه مسیر. از اشتباه‌ها درس بگیریم و برای حل مسئله کمک بخواهیم.</p></div>
+<div class="tip" id="anger"><b>🧘 کنترل خشم</b><p>وقتی عصبانی هستیم، مکث کنیم، چند نفس آرام بکشیم و بعد صحبت کنیم. احساسمان را بیان کنیم، نه اینکه به دیگران آسیب بزنیم.</p></div>
+<div class="tip" id="addiction"><b>🚫 نه به اعتیاد</b><p>اعتیاد می‌تواند به سلامت و آینده آسیب بزند. از مواد مخدر و رفتارهای پرخطر دوری کنیم و در موقعیت‌های سخت از فردی قابل اعتماد کمک بگیریم.</p></div>
+<div class="tip"><b>💬 کمک خواستن نشانه قدرت است</b><p>اگر تحت فشار هستیم یا مشکلی برایمان دشوار شده، با والدین، مشاور مدرسه یا بزرگسال مورد اعتماد صحبت کنیم.</p></div>
+<div class="tip"><b>🌱 از قدم‌های کوچک شروع کن</b><p>هر روز یک تصمیم خوب، یک رفتار آرام‌تر یا یک انتخاب سالم می‌تواند به ساختن آینده‌ای بهتر کمک کند.</p></div>
+</div></div></section>
+<section class="contact" id="contact"><div class="wrap contact-grid"><div><span class="eyebrow" style="background:#ffffff20;color:white">گفت‌وگو و همراهی</span><h2 style="font-size:2rem;margin-bottom:5px">سؤالی داری؟</h2><p>اگر درباره مهارت‌های زندگی پرسشی داری یا دوست داری موضوعی را پیشنهاد بدهی، پیام خود را بنویس. این فرم نمونه است و برای ارسال واقعی باید به سامانه یا ایمیل مدرسه متصل شود.</p></div><form class="form" id="contactForm"><label for="name">نام</label><input id="name" name="name" placeholder="نام شما" required><label for="message">پیام</label><textarea id="message" name="message" placeholder="پیام خود را بنویسید..." required></textarea><button class="btn" type="submit">ثبت پیام</button><p id="status" role="status"></p></form></div></section>
+</main>
+<footer><div class="wrap foot"><span>© مهارت‌های زندگی</span><span class="muted">با انتخاب‌های درست، آینده‌ای بهتر می‌سازیم 💜</span></div></footer>
+<script>
+const menuBtn=document.getElementById('menuBtn'),navLinks=document.getElementById('navLinks');menuBtn.addEventListener('click',()=>navLinks.classList.toggle('open'));navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>navLinks.classList.remove('open')));
+const themeToggle=document.getElementById('themeToggle'),themeIcon=document.getElementById('themeIcon'),root=document.documentElement;
+function setTheme(theme){root.dataset.theme=theme;const dark=theme==='dark';themeIcon.textContent=dark?'☀':'☾';themeToggle.setAttribute('aria-label',dark?'فعال‌سازی حالت روز':'فعال‌سازی حالت شب');themeToggle.title=dark?'رفتن به حالت روز':'رفتن به حالت شب';}
+let savedTheme='light';try{savedTheme=localStorage.getItem('lifeSkillsTheme')||'light'}catch(e){}setTheme(savedTheme);
+themeToggle.addEventListener('click',()=>{const next=root.dataset.theme==='dark'?'light':'dark';setTheme(next);try{localStorage.setItem('lifeSkillsTheme',next)}catch(e){}});
+document.getElementById('contactForm').addEventListener('submit',e=>{e.preventDefault();document.getElementById('status').textContent='پیام شما در این پیش‌نمایش ثبت شد؛ برای دریافت واقعی باید فرم به سامانه مدرسه متصل شود.';e.target.reset()});
+</script>
+</body></html>
